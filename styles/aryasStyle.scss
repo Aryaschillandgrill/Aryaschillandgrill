@@ -103,9 +103,9 @@ body{
   background-color: #1A1818;
   height: 50rem;
   .divider{
-    position: absolute;
-    top: 1310px;
-    width: 80rem;
+    position: relative;
+    top: -200px;
+    width: 80%;
     border-top: 1px solid #a15b3c;
   }
   #openingHrsTitle{
@@ -398,3 +398,72 @@ body{
     }
   }
 }
+@media only screen and (max-width: 500px) {
+
+  #aboutTitle{
+    
+    #title{
+    font-size: 45px;
+    }
+    #subtitle{
+      font-size: 20px;
+    }
+  }
+  #openingHours{
+
+    .divider{
+      
+    }
+    #openingHrsTitle{
+     font-size: 45px;
+    }
+    #daysContainer{
+      
+      #days{
+        font-size: 18px;
+      }
+      #time{
+        font-size: 15px;
+      }
+    }
+  }
+  #dish{ 
+ 
+    
+    #dishListContainer{
+
+      .title{
+      font-size: 60px;
+      }
+  
+      #containerDish_1{
+
+        
+        #dish_1{
+        
+          .title{
+            font-size: 40px;
+          }
+          .imgContainerDish_1{
+            width: 400px;
+          }
+        }
+      }
+      #containerDish_2{
+
+        
+        #dish_2{
+      
+          .title{
+            font-size: 40px;
+          }
+          .imgContainerDish_2{
+            width: 400px; 
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -133,9 +133,9 @@ body {
 }
 
 #openingHours .divider {
-  position: absolute;
-  top: 1310px;
-  width: 80rem;
+  position: relative;
+  top: -200px;
+  width: 80%;
   border-top: 1px solid #a15b3c;
 }
 
@@ -477,6 +477,39 @@ body {
   #dish #dishListContainer #containerDish_2 #dish_2 .imgContainerDish_2 {
     left: 0px;
     bottom: -80px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #aboutTitle #title {
+    font-size: 45px;
+  }
+  #aboutTitle #subtitle {
+    font-size: 20px;
+  }
+  #openingHours #openingHrsTitle {
+    font-size: 45px;
+  }
+  #openingHours #daysContainer #days {
+    font-size: 18px;
+  }
+  #openingHours #daysContainer #time {
+    font-size: 15px;
+  }
+  #dish #dishListContainer .title {
+    font-size: 60px;
+  }
+  #dish #dishListContainer #containerDish_1 #dish_1 .title {
+    font-size: 40px;
+  }
+  #dish #dishListContainer #containerDish_1 #dish_1 .imgContainerDish_1 {
+    width: 400px;
+  }
+  #dish #dishListContainer #containerDish_2 #dish_2 .title {
+    font-size: 40px;
+  }
+  #dish #dishListContainer #containerDish_2 #dish_2 .imgContainerDish_2 {
+    width: 400px;
   }
 }
 /*# sourceMappingURL=aryasStyle.css.map */
