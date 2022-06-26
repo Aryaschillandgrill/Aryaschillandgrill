@@ -48,7 +48,7 @@ body{
   }
 }  
 .frontBackground{
-  background: url("../wood-ge45273ed9_1920.jpg") no-repeat center;
+  background: url("../pictures/wood-ge45273ed9_1920.jpg") no-repeat center;
   background-size: 100% 100%;
   width: 100%;
   height: 44.5rem;
@@ -138,7 +138,7 @@ body{
   }
 }
 #menu{
-  background: url("/pictures/foodMenuBackground.jpg")no-repeat center;
+  background: url("../pictures/foodMenuBackground.jpg")no-repeat center;
   background-size: cover;
   background-color: #1A1818;
   height: 40rem;
@@ -205,7 +205,7 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: url(../pictures/concrete-wall.jpg)center;
+    background: url("../pictures/concrete-wall.jpg")center;
     background-size: 100% 100%;
     height: 200rem;
     // background-color: #252424;
