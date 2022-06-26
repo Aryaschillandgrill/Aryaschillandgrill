@@ -298,7 +298,7 @@ body{
         width: 100%;
         
         .logo{
-          
+          top: 100px; 
         }
       }
     }
@@ -307,7 +307,7 @@ body{
   #aboutTitle{
     height: 600px;
     #title{
-
+      top: 100px;
     }
     #subtitle{
       position: relative;
@@ -318,7 +318,7 @@ body{
   #openingHours{
 
     .divider{
-
+      top: 100px;
     }
     #openingHrsTitle{
      top: 100px;
@@ -327,10 +327,10 @@ body{
       top: 100px;
       height: 450px;
       #days{
-      
+        top: 100px;
       }
       #time{
-        
+        top: 100px;
       }
     }
   }
@@ -343,7 +343,7 @@ body{
       top: 20px;  
      
       #menuSubtitle{
-  
+        top: 100px;
       }
     }
     #dishBtn{
@@ -360,7 +360,7 @@ body{
     #dishListContainer{
 
       .title{
-
+        top: 100px;
       }
   
       #containerDish_1{
