@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+    <link rel="stylesheet" href="/index.css">
+  </head>
+  <body>
+    <nav class="navbar has-background-black-bis" role="navigation" aria-label="main navigation" id="navbar">
+      <div class="navbar-brand">
+        <!-- <a class="navbar-item" href="">
+          <img  id = "logo" src="/pictures/Aryas Chill and Grill Logo.jpg" width="200px">
+        </a> -->
+    
+        <a role="button" class ="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu ">
+        <div class="navbar-start">
+          <a class="navbar-item ">
+            Menu
+          </a>
+          
+          <a class="navbar-item ">
+            Location
+          </a>
+
+          <a class="navbar-item " onclick = "viewAbout()">
+            About
+          </a>
+
+          <a class="navbar-item ">
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
+    <section class="frontBackground">
+      <div class = "brandLogo_container">
+        <div id = "brandLogo">
+          <img src="/pictures/1654575046342.png" width="800" height="0" class = "logo">
+        </div>
+      </div>
+    </section>
+    <section class="hero is-medium is-link">
+      <div class="hero-body" id="aboutTitle">
+        <h1 id="title">
+          Arya's Chill & Grill
+        </h1>
+        <p id="subtitle">
+          We named our resto grill after the name of our youngest daughter Arya. We came up with the plan after just a few months<br>
+          that we acquired the beach lot in Cabangan. It was idle then but the ambiance and location thereat is beautiful since<br>
+          it was surrounded by the mountain, river and the beach. After we acquired the beach lot, we then decided to create the plan<br>
+          in establishing a food business thereat and to be known as one of the best biryani station in Zambales. 
+        </p>
+      </div>
+    </section>
+    <!-- Available days and opening hours -->
+    <section class="hero is-large is-info">
+      <div class="hero-body" id="openingHours">
+        <div class = "divider"></div>
+        <p id="openingHrsTitle">
+         Opening Hours
+        </p>
+        <div id = "daysContainer">
+          <p id="days">
+            MONDAY
+          </p>
+          <p id="time">
+            Close
+          </p><p id="days">
+            TUESDAY - WEDNESDAY
+          </p>
+          <p id="time">
+            11am till 8pm
+          </p><p id="days">
+            THURSDAY - FRIDAY
+          </p>
+          <p id="time">
+            11am till 8pm
+          </p> </p><p id="days">
+            SATURDAY - SUNDAY
+          </p>
+          <p id="time">
+            11am till 8pm
+          </p>
+      </div>
+      </div>
+    </section>
+    <!-- Introduction of Menu -->
+    <section class="hero is-large is-info">
+      <div class="hero-body" id = "menu">
+        <h2 id="menuTitle" data-aos="fade-in" data-aos-duration="1500">
+          MENU
+        </h2>
+        <div class = "menuSubContainer" data-aos="fade-in" data-aos-duration="1500">
+          <p id="menuSubtitle">
+            We offered al fresco dine in and our specialty is Chicken Biryani since there is no existing Mediterranean Indian food in the province.<br>
+            Our target customers are those who loves to eat Mediterranean and Indian Food and we also added some Korean and Filipino foods.
+          </p>
+        </div>
+          <button class="button is-responsive" id = "dishBtn" onclick="foodListView()" value="on">DISH</button>
+      </div>
+    </section>
+    <!-- Name and images of food menu -->
+    <section class="hero is-danger is-fullheight" id = "dish">
+      <div class="hero-body" id="dishListContainer">
+        <h2 class= "title"> 
+          DISH
+        </h2>
+        <section class="hero is-medium" id = "containerDish_1">
+          <div class="hero-body is-responsive" id = "dish_1">
+            <p class="title" data-aos="fade-in" data-aos-duration="1500">
+              CHICKEN BIRYANI
+            </p>
+            <div class = "imgContainerDish_1" data-aos = "slide-left" data-aos-duration="1500">
+              <img src="/pictures/MENU/Kabsa.jpg">
+            </div>
+          </div>
+        </section>
+        
+        <section class="hero is-medium" id = "containerDish_2">
+          <div class="hero-body is-responsive" id = "dish_2">
+            <div class = "imgContainerDish_2" data-aos = "slide-right" data-aos-duration="1500">
+              <img src="/pictures/MENU/Kabsa.jpg">
+            </div>
+            <p class="title" data-aos="fade-in" data-aos-duration="1500">
+              CHICKEN BIRYANI
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- <section class="hero is-medium has-background-black-bis">
+      <div class="hero-body" id="menuList">
+        <div id = "sampleAnimation"  data-aos = "slide-left" data-aos-duration = "1000"></div>
+      </div>
+    </section>
+    <section class="hero is-medium has-background-black-bis">
+      <div class="hero-body" id="menuList">
+        <div id = "sampleAnimation"  data-aos = "slide-right" data-aos-duration = "1000"></div>
+      </div>
+    </section> -->
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
+    <!-- animate when viewed -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> 
+  </body>
+  <script src = /index.js></script>
+</html>
