@@ -33,14 +33,6 @@ body {
   background-color: #252424;
 }
 
-#navbar .navbar-menu .navbar-start .navbar-dropdown {
-  background-color: #252424;
-}
-
-#navbar .navbar-menu .navbar-start .navbar-dropdown .navbar-item:hover {
-  background-color: #252424;
-}
-
 .frontBackground {
   background: url("../pictures/wood-ge45273ed9_1920.jpg") no-repeat center;
   background-size: 100% 100%;
@@ -291,9 +283,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("../pictures/concrete-wall.jpg") center;
-  background-size: 100% 100%;
   height: 200rem;
+  background-color: #1A1818;
 }
 
 #dish #dishListContainer .title {
@@ -335,7 +326,7 @@ body {
   left: -100px;
   width: 600px;
   font-size: 55px;
-  color: Black;
+  color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -369,7 +360,7 @@ body {
   right: -100px;
   width: 600px;
   font-size: 55px;
-  color: Black;
+  color: White;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
