@@ -185,7 +185,7 @@ body {
 }
 
 #menu {
-  background: url("../pictures/foodMenuBackground.jpg") no-repeat center;
+  background: url("https://aryaschillandgrill.github.io/Aryaschillandgrill/pictures/foodMenuBackground.jpg") no-repeat center;
   background-size: cover;
   background-color: #1A1818;
   height: 40rem;
@@ -439,9 +439,6 @@ body {
     width: 180px;
     height: 50px;
     font-size: 20px;
-  }
-  #dish #dishListContainer .title {
-    top: 100px;
   }
   #dish #dishListContainer #containerDish_1 #dish_1 {
     display: -webkit-box;
