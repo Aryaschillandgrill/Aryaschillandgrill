@@ -15,7 +15,7 @@ const viewMenu = function(){
   document.getElementById("menu").scrollIntoView();
 }
 const viewLocation = function(){
-  document.getElementById("aboutTitle").scrollIntoView();
+  document.getElementById("locationSection").scrollIntoView();
 }
 
 
