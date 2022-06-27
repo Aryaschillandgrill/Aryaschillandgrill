@@ -30,8 +30,8 @@ var navbar = document.getElementById("navbar");
 const foodListView = function(){
   if(dish.style.display === "none"){
     dish.style.display = "block";
-  }
-  else{
+   }
+   else{
     dish.style.display = "none";
-  }
+   }
 }
