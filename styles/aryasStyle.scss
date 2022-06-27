@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Stick+No+Bills:wght@700&display=swap');
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: #1A1818;
 }
 #navbar{
+  height: 80px;
   position: sticky;
   top: 0;
   opacity: 0.92;
   backdrop-filter: blur(100px);
-
+  background: transparent;
   .navbar-item{
 
     #logo{
@@ -15,17 +20,17 @@ body{
     }
   }
   .navbar-menu {
-    height: 80px;
-
+    background-color: #1A1818;
     .navbar-start{
     
 
       .navbar-item{
         font-size: 20px;
         color: white;
-
+        transition: 0.3s;
         &:hover {
-          background-color: #252424;
+          transition: 0.3s;
+          background-color: #EA310C;
         }
       }
       .navbar-link{
@@ -47,7 +52,7 @@ body{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 50px;
+    top: 0px;
     width: 100%;
     height: 44.6rem;
     
@@ -189,7 +194,7 @@ body{
    }
 }
 #dish{ 
-  height: 200rem;
+  height: 360rem;
   display: none;
   #dishListContainer{
     display: flex;
@@ -197,15 +202,16 @@ body{
     flex-direction: column;
     // background: url("../pictures/concrete-wall.jpg") center;
     // background-size: 100% 100%;
-    height: 200rem;
-    background-color: #1A1818;
-    .title{
-      width: 50%;
+    height: 360rem;
+    background-color: black;
+    #dishTitle{
+      width: 30%;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 80px;
       font-family: 'Stick No Bills', sans-serif;
+      border-bottom: 2px solid #a15b3c;
       color: #EA310C;
     }
 
@@ -221,49 +227,305 @@ body{
         .title{
           position: relative;
           left: -100px;
-          width: 600px;
-          font-size: 55px;
+          width: auto;
+          font-size: 80px;
           color: white;
-          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+          font-family: 'Satisfy', cursive;
         }
         .imgContainerDish_1{
           position: relative;
           right: -50px;
-          width: 500px;
-          height: 375px;
+          width: 300px;
+          height: auto;
+        }
+      }
+    }
+    #containerDish_2{
+      width: 100%;
+      
+      #dish_2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          right: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: White;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_2{
+          position: relative;
+          left: -50px;
+          width: 300px;
+          height: auto;
+          
+        }
+      }
+    }
+    #containerDish_3{
+      width: 100%;
+      
+      #dish_3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          left: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: white;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_3{
+          position: relative;
+          right: -50px;
+          width: 300px;
+          height: auto;
+        }
+      }
+    }
+    #containerDish_4{
+      width: 100%;
+      
+      #dish_4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          right: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: White;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_4{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          left: -50px;
+          width: 400px;
+          height: auto;
+        }
+      }
+    }
+    #containerDish_5{
+      width: 100%;
+      
+      #dish_5{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          left: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: white;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_5{
+          position: relative;
+          right: -50px;
+          width: 300px;
+          height: auto;
+          
+        }
+      }
+    }
+    #containerDish_6{
+      width: 100%;
+      
+      #dish_6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          right: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: White;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_6{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          left: -50px;
+          width: 300px;
+          height: auto;
+          
+        }
+      }
+    }
+    #containerDish_7{
+      width: 100%;
+      
+      #dish_7{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          left: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: white;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_7{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          right: -50px;
+          width: 400px;
+          height: auto;
+          
+        }
+      }
+    }
+    #containerDish_8{
+      width: 100%;
+      
+      #dish_8{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          right: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: White;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_8{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          left: -50px;
+          width: 300px;
+          height: auto;
+          
+        }
+      }
+    }
+    #containerDish_9{
+      width: 100%;
+      
+      #dish_9{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          left: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: white;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_9{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          right: -50px;
+          width: 400px;
+          height: auto;
+        }
+      }
+    }
+    #containerDish_10{
+      width: 100%;
+      
+      #dish_10{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          right: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: White;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_10{
+          position: relative;
+          left: -50px;
+          width: 300px;
+          height: auto;
+          
+        }
+      }
+    }
+    #containerDish_11{
+      width: 100%;
+      
+      #dish_11{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        background-color: transparent;
+        .title{
+          position: relative;
+          left: -100px;
+          width: 600px;
+          font-size: 80px;
+          width: auto;
+          color: white;
+          font-family: 'Satisfy', cursive;
+        }
+        .imgContainerDish_11{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          right: -50px;
+          width: 300px;
+          height: auto;
         }
       }
     }
   }
-
-  #containerDish_2{
-    width: 100%;
-    
-    #dish_2{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 500px;
-      background-color: transparent;
-      .title{
-        position: relative;
-        right: -100px;
-        width: 600px;
-        font-size: 55px;
-        color: White;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-      }
-      .imgContainerDish_2{
-        position: relative;
-        left: -50px;
-        width: 500px;
-        height: 375px;
-      }
-    }
-  }
 }
-
-
 // #menuList{
 //   background-color: blue;
 //   #sampleAnimation{
@@ -349,7 +611,7 @@ body{
     
     #dishListContainer{
 
-      .title{
+      #dishTitle{
       
       }
   
@@ -361,10 +623,16 @@ body{
           flex-direction: column;
           align-items: center;
           .title{
+            font-size: 40px;
+            width: auto;
             left: 0px;
+            top: -20px;
           }
           .imgContainerDish_1{
             left: 0px;
+            width: 250px;
+            bottom: -20px;
+            height: auto;
           }
         }
       }
@@ -376,19 +644,212 @@ body{
           flex-direction: column;
           align-items: center;
           .title{
+            font-size: 40px;
+            width: auto;
             left: 0px;
-            top: -380px;
+            top: -350px;
           }
           .imgContainerDish_2{
             left: 0px;
+            width: 250px;
             bottom: -80px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_3{
+
+        
+        #dish_3{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -20px;
+          }
+          .imgContainerDish_3{
+            left: 0px;
+            width: 250px;
+            bottom: -20px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_4{
+
+        
+        #dish_4{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -300px;
+          }
+          .imgContainerDish_4{
+            left: 0px;
+            width: 300px;
+            bottom: -50px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_5{
+
+        
+        #dish_5{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -20px;
+          }
+          .imgContainerDish_5{
+            left: 0px;
+            width: 250px;
+            bottom: -20px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_6{
+
+        
+        #dish_6{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -350px;
+          }
+          .imgContainerDish_6{
+            left: 0px;
+            width: 250px;
+            bottom: -80px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_7{
+
+        
+        #dish_7{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -20px;
+          }
+          .imgContainerDish_7{
+            left: 0px;
+            width: 300px;
+            bottom: -20px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_8{
+
+        
+        #dish_8{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -350px;
+          }
+          .imgContainerDish_8{
+            left: 0px;
+            width: 250px;
+            bottom: -80px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_9{
+
+        
+        #dish_9{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -20px;
+          }
+          .imgContainerDish_9{
+            left: 0px;
+            width: 300px;
+            bottom: -20px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_10{
+
+        
+        #dish_10{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -350px;
+          }
+          .imgContainerDish_10{
+            left: 0px;
+            width: 250px;
+            bottom: -80px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_11{
+
+        
+        #dish_11{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .title{
+            font-size: 40px;
+            width: auto;
+            left: 0px;
+            top: -20px;
+          }
+          .imgContainerDish_11{
+            left: 0px;
+            width: 200px;
+            bottom: -20px;
+            height: auto;
           }
         }
       }
     }
   }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 505px) {
 
   #aboutTitle{
     
@@ -405,10 +866,12 @@ body{
       
     }
     #openingHrsTitle{
-     font-size: 45px;
+      top: 150px;
+      font-size: 40px;
     }
     #daysContainer{
-      
+      position: relative;
+      top: 200px;
       #days{
         font-size: 18px;
       }
@@ -422,33 +885,168 @@ body{
     
     #dishListContainer{
 
-      .title{
-      font-size: 60px;
+      #dishTitle{
+      font-size: 70px;
       }
   
       #containerDish_1{
 
-        
         #dish_1{
         
           .title{
             font-size: 40px;
           }
           .imgContainerDish_1{
-            width: 400px;
+            width: 200px;
+            height: 270px;
           }
         }
       }
       #containerDish_2{
 
-        
         #dish_2{
       
           .title{
+            top: -300px;
             font-size: 40px;
           }
           .imgContainerDish_2{
-            width: 400px; 
+            width: 200px; 
+            height: auto;
+          }
+        }
+      }
+      #containerDish_3{
+ 
+        
+        #dish_3{
+    
+          .title{
+            font-size: 40px;
+          }
+          .imgContainerDish_3{
+            width: 200px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_4{
+    
+        
+        #dish_4{
+    
+          .title{
+            top: -250px;
+            font-size: 40px;
+          }
+          .imgContainerDish_4{
+            width: 250px; 
+            height: auto;
+          }
+        }
+      }
+      #containerDish_5{
+
+        
+        #dish_5{
+    
+          .title{
+            font-size: 40px;
+          }
+          .imgContainerDish_5{
+            width: 200px;
+            height: auto;
+            
+          }
+        }
+      }
+      #containerDish_6{
+    
+        
+        #dish_6{
+    
+          .title{
+            font-size: 35px;
+          }
+          .imgContainerDish_6{
+            width: 250px; 
+            height: auto;
+            
+          }
+        }
+      }
+      #containerDish_7{
+    
+        
+        #dish_7{
+    
+          .title{
+            font-size: 40px;
+          }
+          .imgContainerDish_7{
+            width: 250px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_8{
+    
+        
+        #dish_8{
+    
+    
+          .title{
+            top: -300px;
+            font-size: 40px;
+          }
+          .imgContainerDish_8{
+            width: 200px;
+            height: auto;
+            
+          }
+        }
+      }
+      #containerDish_9{
+    
+        
+        #dish_9{
+    
+          .title{
+            font-size: 40px;
+          }
+          .imgContainerDish_9{
+            width: 250px;
+            height: auto;
+          }
+        }
+      }
+      #containerDish_10{
+    
+        
+        #dish_10{
+     
+          .title{
+            top: -300px;
+            font-size: 40px;
+          }
+          .imgContainerDish_10{
+            width: 200px;
+            height: auto;
+            
+          }
+        }
+      }
+      #containerDish_11{
+    
+        
+        #dish_11{
+    
+          .title{
+            font-size: 40px;
+          }
+          .imgContainerDish_11{
+            width: 200px;
+            height: auto;
           }
         }
       }
