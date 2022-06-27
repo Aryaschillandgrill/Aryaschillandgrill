@@ -16,7 +16,8 @@ body {
   opacity: 0.92;
   -webkit-backdrop-filter: blur(100px);
           backdrop-filter: blur(100px);
-  background: transparent;
+  background: #1A1818;
+  border-bottom: 1px solid white;
 }
 
 #navbar .navbar-item #logo {
@@ -48,7 +49,7 @@ body {
   background: url("../pictures/wood-ge45273ed9_1920.jpg") no-repeat center;
   background-size: 100% 100%;
   width: 100%;
-  height: 44.5rem;
+  height: 40.5rem;
 }
 
 .frontBackground .brandLogo_container {
@@ -64,7 +65,7 @@ body {
   position: absolute;
   top: 0px;
   width: 100%;
-  height: 44.6rem;
+  height: 44rem;
 }
 
 .frontBackground .brandLogo_container #brandLogo {
@@ -98,6 +99,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #1A1818;
+  height: 40rem;
 }
 
 #aboutTitle #title {
@@ -137,7 +139,7 @@ body {
 
 #openingHours .divider {
   position: relative;
-  top: -200px;
+  top: -250px;
   width: 80%;
   border-top: 1px solid #a15b3c;
 }

@@ -7,9 +7,25 @@ var dish = document.getElementById("dish");
       menu.classList.toggle('is-active');
   });
 })();
+
 const viewAbout = function(){
-  document.getElementById("sampleAnimation").scrollIntoView();
+  document.getElementById("aboutTitle").scrollIntoView();
 }
+const viewMenu = function(){
+  document.getElementById("menu").scrollIntoView();
+}
+const viewLocation = function(){
+  document.getElementById("aboutTitle").scrollIntoView();
+}
+
+
+var navbar = document.getElementById("navbar");
+
+// window.onscroll = function(){
+//   if(document.body.scrollTop >= 200){
+//     $(".navbar").css("background" , "blue");
+//   }
+// }
 
 const foodListView = function(){
   if(dish.style.display === "none"){
