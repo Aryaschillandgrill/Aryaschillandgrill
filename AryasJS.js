@@ -1,4 +1,3 @@
-var dish = document.getElementById("dish");
 (function () {
   var burger = document.querySelector('.navbar-burger');
   var menu = document.querySelector('#' + burger.dataset.target);
@@ -18,7 +17,6 @@ const viewLocation = function(){
   document.getElementById("locationSection").scrollIntoView();
 }
 
-
 var navbar = document.getElementById("navbar");
 
 // window.onscroll = function(){
@@ -26,23 +24,38 @@ var navbar = document.getElementById("navbar");
 //     $(".navbar").css("background" , "blue");
 //   }
 // }
-
+var dish = document.getElementById("dish");
+var viewDish = document.getElementById("dishBtn");
+var openMenu = true;
 const foodListView = function(){
-  if(dish.style.display === "none"){
+  if(openMenu === true){
     dish.style.display = "block";
+    viewDish.innerHTML = "Close";
+    openMenu = false;
    }
+
    else{
     dish.style.display = "none";
+    viewDish.innerHTML = "View Menu";
+    openMenu = true;
    }
 }
 
 var inside = document.getElementById("inside");
-
+var viewButton = document.getElementById("viewButton");
+var viewPlace = true;
 const viewInside = function(){
-  if(inside.style.display === "none"){
+  if(viewPlace === true){
     inside.style.display = "block";
+    viewButton.innerHTML = "Close";
+    viewPlace = false;
   }
   else{
     inside.style.display = "none";
+    viewButton.innerHTML = "View Place";
+    viewPlace = true;
   }
 }
+
+
+

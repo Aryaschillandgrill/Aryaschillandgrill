@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&family=Stick+No+Bills:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap");
 html {
   scroll-behavior: smooth;
 }
@@ -759,6 +760,40 @@ body {
   height: auto;
 }
 
+#dish #dishListContainer #dishBtn {
+  position: relative;
+  top: -50px;
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #EA310C;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 40px;
+}
+
+#dish #dishListContainer #dishBtn:hover {
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border: 4px solid #EA310C;
+  color: white;
+}
+
+#dish #dishListContainer #dishBtn:active {
+  background-color: #EA310C;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#dish #dishListContainer #dishBtn:active:after {
+  opacity: 1;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
 #location {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -910,6 +945,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 40rem;
 }
 
 .footer .aryasLogoContainer {
@@ -935,9 +971,12 @@ body {
 
 .footer .followUsContainer #title {
   font-size: 40px;
+  font-family: 'Oleo Script Swash Caps';
 }
 
 .footer .followUsContainer .iconContainer {
+  position: relative;
+  left: -13px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -949,7 +988,7 @@ body {
   margin-right: 20px;
 }
 
-.footer .contactUsContainer {
+.footer #contactUsContainer {
   position: relative;
   top: -200px;
   left: 200px;
@@ -964,17 +1003,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 300px;
+  width: 350px;
   height: 200px;
 }
 
-.footer .contactUsContainer #title {
+.footer #contactUsContainer #title {
   font-size: 40px;
+  font-family: 'Oleo Script Swash Caps';
 }
 
-.footer .contactUsContainer .iconContactContainer {
+.footer #contactUsContainer .iconContactContainer {
   position: relative;
-  left: -100px;
+  left: -80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -986,26 +1026,31 @@ body {
   width: 40px;
 }
 
-.footer .contactUsContainer .iconContactContainer #emailIcon {
+.footer #contactUsContainer .iconContactContainer #emailIcon {
   margin-top: 5px;
 }
 
-.footer .contactUsContainer .numAndMailContainer {
+.footer #contactUsContainer .numAndMailContainer {
   position: absolute;
   height: 100px;
   top: 80px;
-  left: 80px;
+  left: 128px;
 }
 
-.footer .contactUsContainer .numAndMailContainer #phoneNum {
+.footer #contactUsContainer .numAndMailContainer #phoneNum {
   position: relative;
-  top: 10px;
+  top: 5px;
   font-weight: 600;
+  font-size: 18px;
+  width: 125px;
+  border-bottom: 1px solid black;
 }
 
-.footer .contactUsContainer .numAndMailContainer #email {
+.footer #contactUsContainer .numAndMailContainer #email {
   position: relative;
-  top: 40px;
+  top: 30px;
+  font-size: 18px;
+  border-bottom: 1px solid black;
 }
 
 .footer #contentContainer {
