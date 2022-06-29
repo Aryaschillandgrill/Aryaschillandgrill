@@ -35,3 +35,14 @@ const foodListView = function(){
     dish.style.display = "none";
    }
 }
+
+var inside = document.getElementById("inside");
+
+const viewInside = function(){
+  if(inside.style.display === "none"){
+    inside.style.display = "block";
+  }
+  else{
+    inside.style.display = "none";
+  }
+}

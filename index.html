@@ -16,10 +16,10 @@
           <img  id = "logo" src="/pictures/Aryas Chill and Grill Logo.jpg" width="200px">
         </a> -->
     
-        <a role="button" class ="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+        <a role="button" class ="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" >
+          <span aria-hidden="true" id = "span"></span>
+          <span aria-hidden="true" id = "span"></span>
+          <span aria-hidden="true" id = "span"></span>
         </a>
       </div>
     
@@ -251,15 +251,67 @@
         <div class="imgContainerLocation">
           <iframe class = "aryasGoogleMap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15400.840080135264!2d120.03733294502346!3d15.201668746301673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x841dc50d4f458fd6!2sArya&#39;s%20Chill%20and%20Grill!5e0!3m2!1sen!2sph!4v1656327387266!5m2!1sen!2sph" width="700" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <button class="button is-responsive" id = "viewButton" onclick="" value="on">VIEW</button>
+        <button class="button is-responsive" id = "viewButton" onclick="viewInside()" value="on">VIEW</button>
       </div>
     </section>
+    <!-- VIEW -->
+    <section class="hero is-medium is-link" id = "inside">
+      <div class="hero-body" id = "viewContainer">
+        <!-- <h2 class = "title">
 
+        </h2> -->
+        <div class = "imgContainer1">
+          <img src="pictures/View/view2.jpg" data-aos = "zoom-in-up" data-aos-duration="1500" data-aos-offset= "200">
+        </div>
+        <div class = "imgContainer2">
+          <img src="pictures/View/view5.jpg" data-aos = "zoom-in-up" data-aos-duration="1500" data-aos-offset= "200"> 
+        </div>
+        <div class = "imgContainer3">
+          <img src="pictures/View/view4.jpg" data-aos = "zoom-in-up" data-aos-duration="1500" data-aos-offset= "200">
+        </div>
+        <div class = "imgContainer4">
+          <img src="pictures/View/view3.jpg" data-aos = "zoom-in-up" data-aos-duration="1500" data-aos-offset= "200">
+        </div>
+      </div>
+    </section>
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="content has-text-centered">
+        <div class = "aryasLogoContainer">
+          <img src="pictures/1654575046342.png">
+        </div>
+        <div class = "followUsContainer">
+          <h2 id = "title">FOLLOW US!</h2>
+          <div class = "iconContainer">
+            <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons" id = "facebookIcon">
+              <img src="pictures/facebook.png">
+            </a>
+            <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons" id = "instaIcon">
+              <img src="pictures/instagram.png">
+            </a>
+          </div>  
+        </div>
+        <div class = "contactUsContainer">
+          <h2 id = "title">CONTACT US!</h2>
+          <div class = "iconContactContainer">
+            <div id ="phoneIcon">
+              <img src="pictures/smartphone-call.png" >
+            </div>
+            <div id ="emailIcon">
+              <img src="pictures/email.png" id = "emailIcon">
+            </div>
+          </div>  
+          <div class = "numAndMailContainer">
+            <div id = "phoneNum">
+              <p >0949 996 5295</p>
+            </div>
+            <div id = "email">
+              <p>janetakademya@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      <div class="content has-text-centered" id = "contentContainer">
         <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <strong>Aryas Chill & Grill © 2022</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
           <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
           is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
         </p>
